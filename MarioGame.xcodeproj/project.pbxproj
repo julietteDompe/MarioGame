@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0BDB711A58802F0022B2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB701A58802F0022B2DD /* AppDelegate.swift */; };
+		7A0BDB731A58802F0022B2DD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BDB721A58802F0022B2DD /* GameScene.sks */; };
+		7A0BDB751A58802F0022B2DD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB741A58802F0022B2DD /* GameScene.swift */; };
+		7A0BDB771A58802F0022B2DD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB761A58802F0022B2DD /* GameViewController.swift */; };
+		7A0BDB7A1A58802F0022B2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BDB781A58802F0022B2DD /* Main.storyboard */; };
+		7A0BDB7C1A58802F0022B2DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BDB7B1A58802F0022B2DD /* Images.xcassets */; };
+		7A0BDB7F1A58802F0022B2DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BDB7D1A58802F0022B2DD /* LaunchScreen.xib */; };
+		7A0BDB8B1A58802F0022B2DD /* MarioGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB8A1A58802F0022B2DD /* MarioGameTests.swift */; };
+		7A0BDB971A5881090022B2DD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB941A5881090022B2DD /* HomeVC.swift */; };
+		7A0BDB981A5881090022B2DD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB951A5881090022B2DD /* LoginVC.swift */; };
+		7A0BDB991A5881090022B2DD /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB961A5881090022B2DD /* SignupVC.swift */; };
+		7A0BDBA51A5882EA0022B2DD /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDB9F1A5882EA0022B2DD /* JSTileMap.m */; };
+		7A0BDBA61A5882EA0022B2DD /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDBA11A5882EA0022B2DD /* LFCGzipUtility.m */; };
+		7A0BDBA71A5882EA0022B2DD /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDBA21A5882EA0022B2DD /* PlayScene.swift */; };
+		7A0BDBA81A5882EA0022B2DD /* super_mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BDBA31A5882EA0022B2DD /* super_mario.png */; };
+		7A0BDBA91A5882EA0022B2DD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BDBA41A5882EA0022B2DD /* UIColorExtension.swift */; };
+		7A0BDBAB1A58831F0022B2DD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0BDBAA1A58831F0022B2DD /* libz.dylib */; };
+		7A136A911A5886DC002265A8 /* level.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7A136A901A5886DC002265A8 /* level.tmx */; };
+		7A136A951A588A49002265A8 /* Mario-Mushroom-Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A136A941A588A49002265A8 /* Mario-Mushroom-Wallpaper.png */; };
+		7A136A9F1A58ACA4002265A8 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A136A9E1A58ACA4002265A8 /* Score.swift */; };
+		7A136AA11A58AD98002265A8 /* Classement2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A136AA01A58AD98002265A8 /* Classement2.swift */; };
+		7AECA8531A652C9B007CC608 /* AddresseConnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECA8521A652C9B007CC608 /* AddresseConnexion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A0BDB851A58802F0022B2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0BDB631A58802F0022B2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0BDB6A1A58802F0022B2DD;
+			remoteInfo = MarioGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A0BDB6B1A58802F0022B2DD /* MarioGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0BDB6F1A58802F0022B2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0BDB701A58802F0022B2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A0BDB721A58802F0022B2DD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7A0BDB741A58802F0022B2DD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7A0BDB761A58802F0022B2DD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7A0BDB791A58802F0022B2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A0BDB7B1A58802F0022B2DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A0BDB7E1A58802F0022B2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A0BDB841A58802F0022B2DD /* MarioGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0BDB891A58802F0022B2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0BDB8A1A58802F0022B2DD /* MarioGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioGameTests.swift; sourceTree = "<group>"; };
+		7A0BDB941A5881090022B2DD /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7A0BDB951A5881090022B2DD /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7A0BDB961A5881090022B2DD /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		7A0BDB9C1A5882E90022B2DD /* MarioGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarioGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A0BDB9E1A5882EA0022B2DD /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		7A0BDB9F1A5882EA0022B2DD /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		7A0BDBA01A5882EA0022B2DD /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		7A0BDBA11A5882EA0022B2DD /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		7A0BDBA21A5882EA0022B2DD /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		7A0BDBA31A5882EA0022B2DD /* super_mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super_mario.png; sourceTree = "<group>"; };
+		7A0BDBA41A5882EA0022B2DD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7A0BDBAA1A58831F0022B2DD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7A136A901A5886DC002265A8 /* level.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level.tmx; sourceTree = "<group>"; };
+		7A136A941A588A49002265A8 /* Mario-Mushroom-Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario-Mushroom-Wallpaper.png"; sourceTree = "<group>"; };
+		7A136A9E1A58ACA4002265A8 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		7A136AA01A58AD98002265A8 /* Classement2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classement2.swift; sourceTree = "<group>"; };
+		7AECA8521A652C9B007CC608 /* AddresseConnexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddresseConnexion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0BDB681A58802F0022B2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0BDBAB1A58831F0022B2DD /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0BDB811A58802F0022B2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A0BDB621A58802F0022B2DD = {
+			isa = PBXGroup;
+			children = (
+				7A0BDBAA1A58831F0022B2DD /* libz.dylib */,
+				7A0BDB6D1A58802F0022B2DD /* MarioGame */,
+				7A0BDB871A58802F0022B2DD /* MarioGameTests */,
+				7A0BDB6C1A58802F0022B2DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A0BDB6C1A58802F0022B2DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB6B1A58802F0022B2DD /* MarioGame.app */,
+				7A0BDB841A58802F0022B2DD /* MarioGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0BDB6D1A58802F0022B2DD /* MarioGame */ = {
+			isa = PBXGroup;
+			children = (
+				7A136AA71A58D864002265A8 /* outils */,
+				7A136AA61A58D7FE002265A8 /* Model */,
+				7A136AA51A58D7C4002265A8 /* Vue */,
+				7A136AA41A58D7A0002265A8 /* Controller */,
+				7A0BDB6E1A58802F0022B2DD /* Supporting Files */,
+			);
+			path = MarioGame;
+			sourceTree = "<group>";
+		};
+		7A0BDB6E1A58802F0022B2DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB6F1A58802F0022B2DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0BDB871A58802F0022B2DD /* MarioGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB8A1A58802F0022B2DD /* MarioGameTests.swift */,
+				7A0BDB881A58802F0022B2DD /* Supporting Files */,
+			);
+			path = MarioGameTests;
+			sourceTree = "<group>";
+		};
+		7A0BDB881A58802F0022B2DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB891A58802F0022B2DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A136AA41A58D7A0002265A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB741A58802F0022B2DD /* GameScene.swift */,
+				7A0BDBA21A5882EA0022B2DD /* PlayScene.swift */,
+				7A0BDB941A5881090022B2DD /* HomeVC.swift */,
+				7A0BDB951A5881090022B2DD /* LoginVC.swift */,
+				7A0BDB961A5881090022B2DD /* SignupVC.swift */,
+				7A0BDB761A58802F0022B2DD /* GameViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7A136AA51A58D7C4002265A8 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB7D1A58802F0022B2DD /* LaunchScreen.xib */,
+				7A0BDB721A58802F0022B2DD /* GameScene.sks */,
+				7A0BDB781A58802F0022B2DD /* Main.storyboard */,
+			);
+			name = Vue;
+			sourceTree = "<group>";
+		};
+		7A136AA61A58D7FE002265A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A136A9E1A58ACA4002265A8 /* Score.swift */,
+				7A136AA01A58AD98002265A8 /* Classement2.swift */,
+				7AECA8521A652C9B007CC608 /* AddresseConnexion.swift */,
+				7A0BDBA41A5882EA0022B2DD /* UIColorExtension.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7A136AA71A58D864002265A8 /* outils */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BDB701A58802F0022B2DD /* AppDelegate.swift */,
+				7A0BDB9E1A5882EA0022B2DD /* JSTileMap.h */,
+				7A0BDB9F1A5882EA0022B2DD /* JSTileMap.m */,
+				7A0BDBA01A5882EA0022B2DD /* LFCGzipUtility.h */,
+				7A0BDBA11A5882EA0022B2DD /* LFCGzipUtility.m */,
+				7A0BDBA31A5882EA0022B2DD /* super_mario.png */,
+				7A136A901A5886DC002265A8 /* level.tmx */,
+				7A0BDB9C1A5882E90022B2DD /* MarioGame-Bridging-Header.h */,
+				7A0BDB7B1A58802F0022B2DD /* Images.xcassets */,
+				7A136A941A588A49002265A8 /* Mario-Mushroom-Wallpaper.png */,
+			);
+			name = outils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A0BDB6A1A58802F0022B2DD /* MarioGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0BDB8E1A58802F0022B2DD /* Build configuration list for PBXNativeTarget "MarioGame" */;
+			buildPhases = (
+				7A0BDB671A58802F0022B2DD /* Sources */,
+				7A0BDB681A58802F0022B2DD /* Frameworks */,
+				7A0BDB691A58802F0022B2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioGame;
+			productName = MarioGame;
+			productReference = 7A0BDB6B1A58802F0022B2DD /* MarioGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0BDB831A58802F0022B2DD /* MarioGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0BDB911A58802F0022B2DD /* Build configuration list for PBXNativeTarget "MarioGameTests" */;
+			buildPhases = (
+				7A0BDB801A58802F0022B2DD /* Sources */,
+				7A0BDB811A58802F0022B2DD /* Frameworks */,
+				7A0BDB821A58802F0022B2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0BDB861A58802F0022B2DD /* PBXTargetDependency */,
+			);
+			name = MarioGameTests;
+			productName = MarioGameTests;
+			productReference = 7A0BDB841A58802F0022B2DD /* MarioGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A0BDB631A58802F0022B2DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "MacBook Pro de Juju";
+				TargetAttributes = {
+					7A0BDB6A1A58802F0022B2DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = T67HV7KUR6;
+					};
+					7A0BDB831A58802F0022B2DD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7A0BDB6A1A58802F0022B2DD;
+					};
+				};
+			};
+			buildConfigurationList = 7A0BDB661A58802F0022B2DD /* Build configuration list for PBXProject "MarioGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A0BDB621A58802F0022B2DD;
+			productRefGroup = 7A0BDB6C1A58802F0022B2DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A0BDB6A1A58802F0022B2DD /* MarioGame */,
+				7A0BDB831A58802F0022B2DD /* MarioGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A0BDB691A58802F0022B2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0BDB7F1A58802F0022B2DD /* LaunchScreen.xib in Resources */,
+				7A0BDB7C1A58802F0022B2DD /* Images.xcassets in Resources */,
+				7A136A951A588A49002265A8 /* Mario-Mushroom-Wallpaper.png in Resources */,
+				7A136A911A5886DC002265A8 /* level.tmx in Resources */,
+				7A0BDB731A58802F0022B2DD /* GameScene.sks in Resources */,
+				7A0BDBA81A5882EA0022B2DD /* super_mario.png in Resources */,
+				7A0BDB7A1A58802F0022B2DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0BDB821A58802F0022B2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0BDB671A58802F0022B2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0BDB991A5881090022B2DD /* SignupVC.swift in Sources */,
+				7A0BDBA71A5882EA0022B2DD /* PlayScene.swift in Sources */,
+				7A0BDB751A58802F0022B2DD /* GameScene.swift in Sources */,
+				7A0BDB971A5881090022B2DD /* HomeVC.swift in Sources */,
+				7A0BDBA51A5882EA0022B2DD /* JSTileMap.m in Sources */,
+				7A0BDB771A58802F0022B2DD /* GameViewController.swift in Sources */,
+				7A136A9F1A58ACA4002265A8 /* Score.swift in Sources */,
+				7A0BDB711A58802F0022B2DD /* AppDelegate.swift in Sources */,
+				7AECA8531A652C9B007CC608 /* AddresseConnexion.swift in Sources */,
+				7A136AA11A58AD98002265A8 /* Classement2.swift in Sources */,
+				7A0BDBA91A5882EA0022B2DD /* UIColorExtension.swift in Sources */,
+				7A0BDBA61A5882EA0022B2DD /* LFCGzipUtility.m in Sources */,
+				7A0BDB981A5881090022B2DD /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0BDB801A58802F0022B2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0BDB8B1A58802F0022B2DD /* MarioGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A0BDB861A58802F0022B2DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0BDB6A1A58802F0022B2DD /* MarioGame */;
+			targetProxy = 7A0BDB851A58802F0022B2DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A0BDB781A58802F0022B2DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0BDB791A58802F0022B2DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A0BDB7D1A58802F0022B2DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0BDB7E1A58802F0022B2DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A0BDB8C1A58802F0022B2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A0BDB8D1A58802F0022B2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A0BDB8F1A58802F0022B2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MarioGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarioGame/MarioGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A0BDB901A58802F0022B2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MarioGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarioGame/MarioGame-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7A0BDB921A58802F0022B2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioGame.app/MarioGame";
+			};
+			name = Debug;
+		};
+		7A0BDB931A58802F0022B2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioGame.app/MarioGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0BDB661A58802F0022B2DD /* Build configuration list for PBXProject "MarioGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0BDB8C1A58802F0022B2DD /* Debug */,
+				7A0BDB8D1A58802F0022B2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0BDB8E1A58802F0022B2DD /* Build configuration list for PBXNativeTarget "MarioGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0BDB8F1A58802F0022B2DD /* Debug */,
+				7A0BDB901A58802F0022B2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0BDB911A58802F0022B2DD /* Build configuration list for PBXNativeTarget "MarioGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0BDB921A58802F0022B2DD /* Debug */,
+				7A0BDB931A58802F0022B2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A0BDB631A58802F0022B2DD /* Project object */;
+}
