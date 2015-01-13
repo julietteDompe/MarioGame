@@ -396,7 +396,7 @@ class PlayScene: SKScene, SKPhysicsContactDelegate {
                 
             }
             
-            if(self.map.position.x == (-1) * 6440){
+            if(self.map.position.x == (-1) * 6440 || self.map.position.x == 6440){
                 self.win()
                 
             }

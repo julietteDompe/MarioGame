@@ -28,6 +28,7 @@
 		7A136A951A588A49002265A8 /* Mario-Mushroom-Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A136A941A588A49002265A8 /* Mario-Mushroom-Wallpaper.png */; };
 		7A136A9F1A58ACA4002265A8 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A136A9E1A58ACA4002265A8 /* Score.swift */; };
 		7A136AA11A58AD98002265A8 /* Classement2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A136AA01A58AD98002265A8 /* Classement2.swift */; };
+		7A67A3531A655454001F59D2 /* Alerte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A67A3521A655454001F59D2 /* Alerte.swift */; };
 		7AECA8531A652C9B007CC608 /* AddresseConnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECA8521A652C9B007CC608 /* AddresseConnexion.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		7A136A941A588A49002265A8 /* Mario-Mushroom-Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario-Mushroom-Wallpaper.png"; sourceTree = "<group>"; };
 		7A136A9E1A58ACA4002265A8 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		7A136AA01A58AD98002265A8 /* Classement2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classement2.swift; sourceTree = "<group>"; };
+		7A67A3521A655454001F59D2 /* Alerte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerte.swift; sourceTree = "<group>"; };
 		7AECA8521A652C9B007CC608 /* AddresseConnexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddresseConnexion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,7 @@
 				7A136AA01A58AD98002265A8 /* Classement2.swift */,
 				7AECA8521A652C9B007CC608 /* AddresseConnexion.swift */,
 				7A0BDBA41A5882EA0022B2DD /* UIColorExtension.swift */,
+				7A67A3521A655454001F59D2 /* Alerte.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				7A136AA11A58AD98002265A8 /* Classement2.swift in Sources */,
 				7A0BDBA91A5882EA0022B2DD /* UIColorExtension.swift in Sources */,
 				7A0BDBA61A5882EA0022B2DD /* LFCGzipUtility.m in Sources */,
+				7A67A3531A655454001F59D2 /* Alerte.swift in Sources */,
 				7A0BDB981A5881090022B2DD /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

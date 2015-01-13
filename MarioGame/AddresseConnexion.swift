@@ -10,5 +10,5 @@ import Foundation
 
 class AddresseConnexion{
    
-    var address = "http://192.168.1.100:8888/Test/"
+    var address = "http://mario.livehost.fr/";//"http://192.168.1.100:8888/Test/"
 }
